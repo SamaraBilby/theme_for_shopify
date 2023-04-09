@@ -1,0 +1,25 @@
+<h1>{{ section.settings.title }}</h1>
+<p>{{ section.settings.subtitle }}</p>
+
+
+{% schema %}
+    {
+        "name": "Tamplate 404",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "default": "404",
+                "label": "404 Heading title"
+            },
+            {
+                "type": "text",
+                "id":"subtitle",
+                "default":"Sorry for that",
+                "label":"404 Heading subtitle"
+                
+
+            }
+        ]
+    }
+{% endschema %}
